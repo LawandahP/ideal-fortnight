@@ -1,0 +1,104 @@
+
+.MuiDataGrid-viewport,
+.MuiDataGrid-row,
+.MuiDataGrid-renderingZone {
+    max-height: fit-content !important;
+    background: none !important;
+}
+
+.MuiDataGrid-virtualScrollerRenderZone, .MuiDataGrid-virtualScrollerContent {
+    background: none !important;
+}
+.MuiDataGrid-root {
+    border: none !important;
+    background: none !important;
+    max-height: 100vh !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-columnHeader:focus, 
+.MuiDataGrid-root .MuiDataGrid-cell:focus {
+    outline: none !important;
+}
+
+.MuiDataGrid-cell {
+    max-height: none !important;
+    font-size: 12px;
+    overflow: auto;
+    white-space: normal !important;
+    line-height: unset !important;
+    color: #808080;
+    display: flex !important;
+    align-items: center;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+/* 
+    lineHeight: "unset !important",
+      maxHeight: "none !important",
+      whiteSpace: "normal" */
+}
+
+.MuiDataGrid-booleanCell {
+    color: #808080 !important;
+}
+
+.MuiDataGrid-columnHeaders {
+    background: #0057D9 !important;
+}
+
+.MuiDataGrid-columnHeaderTitle {
+    font-size: '14px';
+    color: #ffff;
+    min-height: 34px;
+  }
+
+.MuiDataGrid-columnSeparator {
+    display: none !important;
+}
+
+.MuiDataGrid-menuIconButton, .MuiDataGrid-sortIcon, .MuiDataGrid-filterIcon {
+    color: #fff !important;
+}
+
+.MuiTablePagination-root {
+    color: #808080 !important;
+}
+
+.MuiTab-root {
+    color: #808080 !important;
+}
+
+.MuiDataGrid-virtualScrollerContent {
+    background: none !important;
+}
+
+
+
+.MuiDataGrid-root .MuiDataGrid-renderingZone {
+    max-height: none !important;
+}
+
+.MuiDataGrid-root .MuiDataGrid-cell {
+    line-height: unset !important;
+    max-height: none !important;
+    white-space: normal !important;
+}
+
+.MuiDataGrid-row {
+    max-height: none !important;
+}
+
+
+
+/* .MuiSelect-select {
+    .MuiOutlinedInput-root {
+        fieldset {
+            borderColor: "grey";;\
+        },
+        "&:hover fieldset": {
+            borderColor: "#0057D9",
+        },
+        "&.Mui-focused fieldset": {
+            borderColor: "#0057D9",
+        },
+    },
+} */
